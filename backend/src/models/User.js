@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
+
 const UserShema = new mongoose.Schema({
-    email: String,
+    email: {
+       type: String},
 })
 
 module.exports = mongoose.model('User', UserShema)
