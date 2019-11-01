@@ -31,5 +31,10 @@ return res.json(spots)
         })
 
             return res.json(spot)
-        }
+        },
+
+        test(res, req){
+            return res.json({ ok : "jamil"})
+        } 
 };
+
