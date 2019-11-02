@@ -23,7 +23,7 @@ body, input, button{
 }
 .container {
   margin:  80px auto 0;
-  max-width: 450 px;
+  max-width: 450px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -64,6 +64,15 @@ body, input, button{
   font: 16px ;
 }
 
+<<<<<<< HEAD
+.content form spam{
+  font-weight: normal;
+  color: #999;
+  font-size: 8px;
+  }
+
+=======
+>>>>>>> login
 .content button.btn{
   margin-bottom: 20px;
   border: 0;
