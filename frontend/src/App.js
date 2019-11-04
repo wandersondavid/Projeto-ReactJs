@@ -4,7 +4,7 @@ import './App.css';
 import logo from './assets/logo.svg'
 import Routes from './routes'
 function App() {
-<<<<<<< HEAD
+
   
 
   return (
@@ -16,7 +16,7 @@ function App() {
       </div>
     </div>
   );
-=======
+
   return (
     <div className="container">
       <img src={logo} alt="AirCnC"/>
@@ -34,7 +34,7 @@ function App() {
       </div>
     </div>
    );
->>>>>>> login
-}
+
+  }
 
 export default App;
